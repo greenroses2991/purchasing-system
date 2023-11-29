@@ -1,0 +1,170 @@
+@import './base.css';
+
+#app {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;  */
+    padding: 0 0rem;
+  }
+  /* input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+} */
+/* #prodBrand{
+  text-align:left;
+  font-size: 15px;
+  width:350px;
+  padding:15px 20px;
+  height: 40px;
+  border: solid 1px;
+  outline-width: 1px;
+  left:40;
+  top:80;
+ 
+
+} */
+/* input[type=email]{
+  height: 10px;
+  width: 350px;
+  
+  padding: 5px 5px;
+  margin: 0px 0px 5px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} */
+
+#suppliername{
+  
+  text-align:left;
+  width: 25%;
+  padding:5px 5px;
+  height: 30px;
+
+  
+}
+
+/* label{
+  font-size: 15px;
+  padding-top:10rem;
+} */
+
+/* .form-floating{
+  position:relative;
+} */
+/* .form-floating label {
+
+  left:0.2rem;
+  padding-left:0.6rem;
+  padding-bottom:15rem;
+  margin-top:0.1rem;
+  
+} */
+#prodBrand,#prodUnit,#Prodname,#selectOption,#selectOptionUnit{
+  /* height: 5px;
+  width: 350px;
+  padding: 5px 0px; */
+  margin: 30px 0px 5px 0px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px; 
+  width:350px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom:1px;
+  padding-left:14px;
+  height: 45px;
+ 
+}
+
+#alrt{
+  margin: 15px 0px 10px 0px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px; 
+  width:350px;
+  padding-top: 7px;
+  padding-right: 7px;
+  padding-bottom:1px;
+  padding-left:14px;
+  height: 35px;
+ 
+}
+
+label {
+  position: absolute;
+  top: 10px; /* Adjust vertical position */
+  left: 10px; /* Adjust horizontal position */
+  font-weight: bold;
+  transition: all 0.5s;
+  pointer-events: none;
+  font-size: 12px; /* Adjust font size */
+  color: rgb(136, 136, 136);
+  bottom:20px;
+  
+}
+/* input {
+  
+  height: 5px;
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; 
+} */
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: -7px; 
+
+ 
+  font-size: 15px; 
+  color: rgb(200, 50, 50);
+  font-weight: bold;
+}
+/* input::placeholder {
+  position: absolute;
+  bottom: 50px;
+  left: 9px;
+  transform: translateY(50%);
+  font-size: 14px; 
+  color: #888;
+} */
+/* router-link:a{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom:10px;
+  padding-left:14px;
+} */
+}
